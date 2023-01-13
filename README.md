@@ -4,7 +4,7 @@
 
 Lors de la réunion Jeudi, nous t'avons présenté les deux types de cellules avec lesquels nous travaillons.
 Il y a 2 types de cellules, les cellules "I3" et les cellules "LW4".
-Elles se trouvent dans le dossier "data" qui est disposition sur seafile.
+Elles se trouvent dans le dossier "data" qui est disposition sur seafile : https://seafile.unistra.fr/d/50335450aeee434ca5d0/
 
 Dans ce dossier "data", il y a quattre fichiers et deux dossiers.
 
@@ -25,8 +25,12 @@ L'entrainement est fonctionnelle, tu n'as qu'à le lancer pour te familiariser a
 Petite précision : Je sauvegarde les poids de mon réseaux toutes les 3 épochs, en format ".pth" 
 dans le dossier "network_weight" qui est créer lorsque l'entraînement est lancé. 
 
+## À faire pour commencer
+
 Dans un premier temps, familiarise toi avec les données, l'entraînement, Pytorch, essaye de faire tourner 
 sur ton GPU etc etc...
+Puis, une fois l'entrainement terminé, essayer de prédire des segmentations sur les images brutes (".tiff")
+à l'aide des poids du réseau sauvegardés en ".pth" 
 
 
 
